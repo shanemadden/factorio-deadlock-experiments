@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 06. 04. 2019
+  Changes:
+    - Scale direct smelting recipes appropriately when the stack size has been adjusted on the base mod
+---------------------------------------------------------------------------------------------------
 Version: 0.17.2
 Date: 31. 03. 2019
   Changes:
