@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 22. 05. 2019
+  Changes:
+    - Also attach to Bob's productivity modules for direct smelting
+    - Add option for a multiplier to inventory stack size for stacked items, disabled by default
+---------------------------------------------------------------------------------------------------
 Version: 0.17.4
 Date: 22. 04. 2019
   Changes:

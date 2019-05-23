@@ -81,9 +81,3 @@ end
 data:extend({copper, iron, stone, steel})
 -- add the unlock of the tech for the steel recipe to the steel tech
 table.insert(data.raw.technology["steel-processing"].effects, {recipe = "stacked-steel-plate", type = "unlock-recipe"})
--- add these recipes to the eligible recipes for productivity modules
-for _, recipe in ipairs({copper, iron, stone, steel}) do
-  table.insert(data.raw.module["productivity-module"].limitation, recipe.name)
-  table.insert(data.raw.module["productivity-module-2"].limitation, recipe.name)
-  table.insert(data.raw.module["productivity-module-3"].limitation, recipe.name)
-end

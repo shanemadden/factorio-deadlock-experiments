@@ -21,4 +21,18 @@ data:extend({
 		setting_type = "startup",
 		default_value = true,
 	},
+	{
+		type = "string-setting",
+		name = "experiments-densityoverride",
+		order = "d",
+		setting_type = "startup",
+		default_value = "1",
+		allowed_values = {
+			"match-stack-size",
+			"1",
+			"2",
+			"5",
+			"10"
+		},
+	},
 })
