@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 23. 05. 2019
+  Bugfixes:
+    - Fix direct smelting crashes in cases where the vanilla productivity modules have been removed
+---------------------------------------------------------------------------------------------------
 Version: 0.17.5
 Date: 22. 05. 2019
   Changes:
