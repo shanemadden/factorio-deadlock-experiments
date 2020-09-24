@@ -22,9 +22,16 @@ data:extend({
 		default_value = true,
 	},
 	{
+		type = "bool-setting",
+		name = "experiments-directcrafting",
+		order = "d",
+		setting_type = "startup",
+		default_value = true,
+	},
+	{
 		type = "string-setting",
 		name = "experiments-densityoverride",
-		order = "d",
+		order = "e",
 		setting_type = "startup",
 		default_value = "1",
 		allowed_values = {
