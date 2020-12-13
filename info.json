@@ -1,16 +1,16 @@
 {
 	"name": "deadlock-experiments",
-	"version": "0.18.1",
+	"version": "1.1.0",
 	"title": "Deadlock Experimental Stacking",
 	"author": "Shane Madden",
 	"homepage": "https://github.com/shanemadden/factorio-deadlock-experiments",
 	"dependencies": [
-		"base >= 0.18.0",
+		"base >= 1.1.0",
 		"deadlock-beltboxes-loaders >= 2.3.0",
 		"?bobplates",
 		"?deadlock-stacking-crating-bobs",
 		"?Krastorio2"
 	],
 	"description": "Adds options for experimental stacking enhancements for Deadlock's Stacking Beltboxes - stacking for science, direct smelting of stacks, and more",
-	"factorio_version": "0.18"
+	"factorio_version": "1.1"
 }
